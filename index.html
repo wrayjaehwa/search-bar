@@ -8,7 +8,21 @@
         <meta charset="utf-8">
         <script src="https://kit.fontawesome.com/1be809cc3e.js" crossorigin="anonymous"></script>
     </head>
+    <header>
+        <div class="container">
+            <img src="images/noodles.png" alr="logo" class="logo"> 
+            <nav>
+                <ul>
+                    <li><a href="https://skarmory.xyz">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#" style="font-weight: bold;">sign in</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
     <body>
+        
         <div class="search-box">
             <input class="search-txt" type="text" id="ingredients" placeholder="Feed me ingredients" onkeydown="search(this)">
             <a class="search-btn">
@@ -16,12 +30,12 @@
             </a>
         </div>
         <div class="list-box" id="openbox">
-            <a href="/#"class="list-txt" id="openlist">
-                © 2022 Fooble All Rights Reserved
+            <a href="/#" class="list-txt" id="openlist" target="_blank" rel="noopener noreferrer">
+                <!-- © 2022 Fooble All Rights Reserved -->
                 
                 <!-- <div class="loader"></div>  -->
             </a>
-            <i class="fa-solid fa-arrow-up-right-from-square" style="color: #303952; margin: auto; padding: 5px;"></i>
+            <i id="link_icon" class="fa-solid fa-arrow-up-right-from-square"></i>
         </div>
     </body>
 </html>
