@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: #ffb142;
+    background: #ffa801;
 
     
 }
@@ -28,7 +28,7 @@ body {
     background: white;
 }
 .search-btn{
-    color: #ffb142;
+    color: #ffa801;
     float: right;
     width: 40px;
     height: 40px;
@@ -113,7 +113,7 @@ body {
 
 /* .loader {
     border: 16px solid #303952; /* Light grey */
-    /* border-top: 16px solid #ffb142; Blue
+    /* border-top: 16px solid #ffa801; Blue
     border-radius: 50%;
     width: 120px;
     height: 120px;
