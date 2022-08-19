@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #ffb142;
+
+    
+}
+.search-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #303952;
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+
+    border-radius: 50px;
+    /* background: #e0e0e0; */
+    box-shadow:  20px 20px 60px #ad792d,
+    -20px -20px 60px #eba33d;
+}
+.search-box:hover > .search-txt {
+    width: 240px;
+    padding: 0 6px;
+}
+.search-box:hover > .search-btn {
+    background: white;
+}
+.search-btn{
+    color: #ffb142;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #303952;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+
+.search-txt {
+    border: none;
+    background: none;
+    background-color: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: #f7f1e3;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+}
+
+.list-box {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #303952;
+    /* max-width: 100px; */
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+
+    border-radius: 50px;
+    background: none;
+    box-shadow:  20px 20px 60px #d99638,
+                 -20px -20px 60px #ffcc4c;
+    /* visibility: hidden; */
+    /* transition: opacity 0.3s ease-in-out;
+    -webkit-transition: opacity 0.3s ease-in-out;
+    -moz-transition: opacity 0.3s ease-in-out;
+    -ms-transition: opacity 0.3s ease-in-out;
+    -o-transition: opacity 0.3s ease-in-out; */
+}
+
+#openbox {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    -webkit-transition: opacity 0.3s ease-in-out;
+    -moz-transition: opacity 0.3s ease-in-out;
+    -ms-transition: opacity 0.3s ease-in-out;
+    -o-transition: opacity 0.3s ease-in-out;
+}
+
+#openbox.fade {
+    opacity: 1;
+}
+
+
+.list-txt {
+    font-family: sans-serif;
+    font-weight: lighter;
+    border: none;
+    background: none;
+    background-color: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    margin:  0 10px;
+    color: #303952;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+
+    text-decoration: none;
+    /* width: 100px; */
+}
+
+
+/* .loader {
+    border: 16px solid #303952; /* Light grey */
+    /* border-top: 16px solid #ffb142; Blue
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  } */
