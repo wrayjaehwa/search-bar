@@ -17,8 +17,8 @@ body {
 
     border-radius: 50px;
     /* background: #e0e0e0; */
-    box-shadow:  20px 20px 40px #d98f01,
-    -20px -20px 40px #ffc101;
+    box-shadow:  20px 20px 60px #d98f01,
+    -20px -20px 60px #ffc101;
 }
 .search-box:hover > .search-txt {
     width: 240px;
@@ -67,8 +67,8 @@ body {
 
     border-radius: 50px;
     background: none;
-    box-shadow:  20px 20px 40px #d98f01,
-    -20px -20px 40px #ffc101;
+    box-shadow:  20px 20px 60px #d98f01,
+    -20px -20px 60px #ffc101;
     /* visibility: hidden; */
     /* transition: opacity 0.3s ease-in-out;
     -webkit-transition: opacity 0.3s ease-in-out;
